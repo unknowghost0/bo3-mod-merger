@@ -143,3 +143,12 @@ bo3_mod_merger/
 - [modme.co wiki – Zone structure](https://wiki.modme.co/wiki/Game-Support-_-Black-Ops-3.html)
 
 
+---
+so virustotal is lying like crazy and here why 
+1. Code signing – Sign the exe with an EV code signing certificate. That adds trust and often reduces false positives. Certificates cost money but are the standard way to reduce flags.
+2. Submit to vendors – Use the VirusTotal “Submit for re-analysis” flow and/or report false positives to the vendors that flag it (e.g. via their websites). Many will whitelist after review.
+3. Provide source – On GitHub, having the full source and build instructions lets users build the exe themselves and verify it’s safe.
+4. Use a different packer – PyInstaller is commonly flagged. Alternatives like Nuitka or cx_Freeze can produce different binaries that sometimes get fewer false positives, though there’s no guarantee.
+4. Add a VirusTotal note – Add a comment on the VirusTotal page explaining that it’s a PyInstaller-built tool for BO3 mod merging, with a link to the GitHub repo.
+Bottom line: The file is almost certainly safe. The flags are typical for PyInstaller-built executables. Code signing and publishing the source on GitHub are the most effective ways to build trust and reduce false positives.
+this is what ai said so yeah lol
