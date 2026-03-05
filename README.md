@@ -28,6 +28,7 @@ Merge multiple Call of Duty: Black Ops III mods into one. BO3 only loads a singl
 ### To decompile Workshop mods
 
 Place one of these **next to `BO3 Mod Merger.exe`**:
+
 I dont take any credit for these tools that down here.
 | Tool | Purpose | Download |
 |------|---------|----------|
@@ -140,4 +141,5 @@ bo3_mod_merger/
 - [Steam: How to load Multiple Mods?](https://steamcommunity.com/app/311210/discussions/0/343787920120382321/)
 - [BO3 callbacks support multiple handlers](https://bo3explorer.zeroy.com/mp_2__callbacks_8gsc_source.html)
 - [modme.co wiki – Zone structure](https://wiki.modme.co/wiki/Game-Support-_-Black-Ops-3.html)
+
 
